@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Righteous&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top_banner {
+    background: #f9f9f9;
+    padding: 30px 0;
+}
+
+.top_banner h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.top_banner p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #707070;
+    margin-bottom: 10px;
+}
